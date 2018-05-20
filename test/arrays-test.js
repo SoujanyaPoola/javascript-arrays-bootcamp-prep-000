@@ -104,7 +104,7 @@ describe('arrays', () => {
     })
   })
 
-/* describe('destructivelyRemoveElementFromEndOfArray(array)', () => {
+ describe('destructivelyRemoveElementFromEndOfArray(array)', () => {
     it('returns the array with the last element removed', () => {
       expect(destructivelyRemoveElementFromEndOfArray([1, 2, 3])).to.eql([1, 2])
     })
@@ -116,7 +116,7 @@ describe('arrays', () => {
     })
   })
   
-  describe('removeElementFromEndOfArray(array)', () => {
+ /* describe('removeElementFromEndOfArray(array)', () => {
     it('removes the last element from the array', () => {
       expect(removeElementFromEndOfArray([1, 2, 3])).to.eql([1, 2])
     })
