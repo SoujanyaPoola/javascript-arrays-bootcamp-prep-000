@@ -44,7 +44,7 @@ describe('arrays', () => {
     })
   })
 
- /* describe('addElementToEndOfArray(array, element)', () => {
+  describe('addElementToEndOfArray(array, element)', () => {
     it('adds an element to the end of an array', () => {
       expect(addElementToEndOfArray([1], 'foo')).to.eql([1, 'foo'])
     })
@@ -58,7 +58,7 @@ describe('arrays', () => {
     })
   })
 
-  describe('destructivelyAddElementToEndOfArray(array, element)', () => {
+ /* describe('destructivelyAddElementToEndOfArray(array, element)', () => {
     it('adds an element to the end of an array', () => {
       expect(destructivelyAddElementToEndOfArray([1], 'foo')).to.eql([1, 'foo'])
     })
