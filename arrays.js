@@ -33,10 +33,9 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
  return array;
 }
 
-function removeElementFromBeginningOfArray(){
-  var anArray = [1,2,3,4];
-  anArray = anArray.slice(-3);
-  return anArray;
+function removeElementFromBeginningOfArray(array){
+  array.slice(-1);
+  return array;
 }
 
 function destructivelyRemoveElementFromEndOfArray(){
